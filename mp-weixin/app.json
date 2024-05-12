@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/ketixinxi/list",
+    "pages/ketixinxi/add-or-update",
+    "pages/ketixinxi/detail",
+    "pages/xuantixinxi/list",
+    "pages/xuantixinxi/add-or-update",
+    "pages/xuantixinxi/detail",
+    "pages/lunwenxinxi/list",
+    "pages/lunwenxinxi/add-or-update",
+    "pages/lunwenxinxi/detail",
+    "pages/yihuoliuyan/list",
+    "pages/yihuoliuyan/add-or-update",
+    "pages/yihuoliuyan/detail",
+    "pages/yihuojieda/list",
+    "pages/yihuojieda/add-or-update",
+    "pages/yihuojieda/detail",
+    "pages/dabianmingdan/list",
+    "pages/dabianmingdan/add-or-update",
+    "pages/dabianmingdan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校毕业论文管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#78DAFF",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ketixinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "课题信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
